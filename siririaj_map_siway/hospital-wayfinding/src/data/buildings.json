@@ -1,0 +1,10 @@
+[
+  {
+    "id": "b-main",
+    "name_th": "อาคารผู้ป่วยนอก",
+    "name_en": "Outpatient Building",
+    "code": "OPD",
+    "floors": ["G", "1", "2"],
+    "color_hex": "#0052CC"
+  }
+]

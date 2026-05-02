@@ -1,0 +1,74 @@
+[
+  {
+    "id": "r1",
+    "from_node_id": "n-entry",
+    "to_node_id": "n-stairs",
+    "distance_meter": 20,
+    "estimated_seconds": 30,
+    "instruction_th": "เดินตรงไปยังบันได",
+    "instruction_en": "Walk to the stairs",
+    "direction": "straight",
+    "is_accessible": false,
+    "bidirectional": true
+  },
+  {
+    "id": "r2",
+    "from_node_id": "n-stairs",
+    "to_node_id": "n-opd",
+    "distance_meter": 20,
+    "estimated_seconds": 30,
+    "instruction_th": "เลี้ยวขวาไป OPD",
+    "instruction_en": "Turn right to OPD",
+    "direction": "right",
+    "is_accessible": false,
+    "bidirectional": true
+  },
+  {
+    "id": "r3",
+    "from_node_id": "n-entry",
+    "to_node_id": "n-elevator",
+    "distance_meter": 40,
+    "estimated_seconds": 45,
+    "instruction_th": "เดินไปที่ลิฟต์กลาง",
+    "instruction_en": "Walk to central elevator",
+    "direction": "straight",
+    "is_accessible": true,
+    "bidirectional": true
+  },
+  {
+    "id": "r4",
+    "from_node_id": "n-elevator",
+    "to_node_id": "n-opd",
+    "distance_meter": 40,
+    "estimated_seconds": 45,
+    "instruction_th": "เดินตรงไป OPD",
+    "instruction_en": "Go straight to OPD",
+    "direction": "straight",
+    "is_accessible": true,
+    "bidirectional": true
+  },
+  {
+    "id": "r5",
+    "from_node_id": "n-opd",
+    "to_node_id": "n-pharmacy",
+    "distance_meter": 25,
+    "estimated_seconds": 35,
+    "instruction_th": "เดินตรงไปห้องยา",
+    "instruction_en": "Walk straight to pharmacy",
+    "direction": "straight",
+    "is_accessible": true,
+    "bidirectional": true
+  },
+  {
+    "id": "r6",
+    "from_node_id": "n-pharmacy",
+    "to_node_id": "n-lab",
+    "distance_meter": 20,
+    "estimated_seconds": 30,
+    "instruction_th": "เดินต่อไปห้องแล็บ",
+    "instruction_en": "Continue to laboratory",
+    "direction": "straight",
+    "is_accessible": true,
+    "bidirectional": true
+  }
+]

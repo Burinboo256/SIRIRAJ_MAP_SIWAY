@@ -1,0 +1,68 @@
+[
+  {
+    "id": "n-entry",
+    "name": "Main Entrance",
+    "type": "entrance",
+    "building_id": "b-main",
+    "floor": "1",
+    "map_x": 20,
+    "map_y": 100,
+    "qr_code_id": "QR-ENT-001",
+    "is_accessible": true
+  },
+  {
+    "id": "n-elevator",
+    "name": "Central Elevator",
+    "type": "elevator",
+    "building_id": "b-main",
+    "floor": "1",
+    "map_x": 140,
+    "map_y": 100,
+    "qr_code_id": "QR-ELV-001",
+    "is_accessible": true
+  },
+  {
+    "id": "n-stairs",
+    "name": "Stairs A",
+    "type": "stairs",
+    "building_id": "b-main",
+    "floor": "1",
+    "map_x": 140,
+    "map_y": 40,
+    "qr_code_id": "QR-STR-001",
+    "is_accessible": false
+  },
+  {
+    "id": "n-opd",
+    "name": "OPD",
+    "type": "place",
+    "building_id": "b-main",
+    "floor": "1",
+    "map_x": 260,
+    "map_y": 100,
+    "qr_code_id": "QR-OPD-001",
+    "is_accessible": true
+  },
+  {
+    "id": "n-pharmacy",
+    "name": "Pharmacy",
+    "type": "place",
+    "building_id": "b-main",
+    "floor": "1",
+    "map_x": 320,
+    "map_y": 100,
+    "qr_code_id": "QR-PHA-001",
+    "is_accessible": true
+  },
+  {
+    "id": "n-lab",
+    "name": "Laboratory",
+    "type": "place",
+    "building_id": "b-main",
+    "floor": "1",
+    "map_x": 380,
+    "map_y": 100,
+    "qr_code_id": "QR-LAB-001",
+    "is_accessible": true
+  }
+]
