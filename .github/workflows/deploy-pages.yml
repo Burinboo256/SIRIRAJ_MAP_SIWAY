@@ -28,15 +28,15 @@ jobs:
         with:
           node-version: 20
           cache: "pnpm"
-          cache-dependency-path: hospital-wayfinding/pnpm-lock.yaml
+          cache-dependency-path: siririaj_map_siway/hospital-wayfinding/pnpm-lock.yaml
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-        working-directory: hospital-wayfinding
+        working-directory: siririaj_map_siway/hospital-wayfinding
 
       - name: Build static app
         run: pnpm build
-        working-directory: hospital-wayfinding
+        working-directory: siririaj_map_siway/hospital-wayfinding
         env:
           GITHUB_ACTIONS: "true"
 
@@ -46,7 +46,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: hospital-wayfinding/out
+          path: siririaj_map_siway/hospital-wayfinding/out
 
   deploy:
     environment:
